@@ -7,11 +7,11 @@ int main()
 {
   //
    const long long LAST_YEARS_SALE = 2103419277;
-   const double increase = 0.18;
+   const double INCREASE = 0.18;
   long long this_years_sales;
 
-//Formula for sales prediction 
-this_years_sales = (LAST_YEARS_SALE * increase) + LAST_YEARS_SALE ;
+//Formula for sales prediction
+this_years_sales = (LAST_YEARS_SALE * INCREASE) + LAST_YEARS_SALE ;
 
   // Displays last year sales and sales prediction
   std::cout << "Last year\'s sales were $" << LAST_YEARS_SALE << std::endl;
